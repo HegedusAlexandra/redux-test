@@ -9,11 +9,16 @@
   display: flex;
   flex-direction: row;
   width: 80%;
-  height: 100vh;
   text-transform: uppercase;
   font-size: 8vh;
   font-weight: 700;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color:#afafaf;
   padding-left: 2vh;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: goldenrod;
 }
