@@ -15,13 +15,14 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color:#afafaf;
   padding-left: 2vh;
+  padding-top: 4vh;
 }
 
 .container{
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background-color: goldenrod;  
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 .productlist{
@@ -39,4 +40,21 @@ button{
   height: 20px;
   margin: 2px;
   border-radius: 4px;
+}
+
+.menu{
+  position: fixed;
+  width: 100%;
+  height: 4vh;
+  /* background-color: rgb(255 255 255 / 30%);
+  backdrop-filter: blur(10px); */
+  backdrop-filter: invert(80%);
+  font-size: 2.5vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 3vh;
+}
+
+.link{
+  margin-right: 4vh;
+  text-transform: uppercase;
 }
