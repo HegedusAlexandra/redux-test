@@ -3,21 +3,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="headline">
+        <h1>
+           <span style={{color:'white' }}>Deadlee Cereal </span>Webshop:<span style={{ color: 'white' }}> As good you would die for it</span>
+        </h1>
+      </div>
     </div>
   );
 }
