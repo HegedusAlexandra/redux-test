@@ -1,4 +1,5 @@
 import './App.css';
+import ProductListContainer from './pages/ProductListContainer';
 
 function App() {
   return (
@@ -8,8 +9,9 @@ function App() {
            <span style={{color:'white' }}>Deadlee Cereal </span>Webshop:<span style={{ color: 'white' }}> As good you would die for it</span>   
         </h1>
       </div>
-      <div className='container'></div>
+      <ProductListContainer />
     </div>
+    
   );
 }
 
