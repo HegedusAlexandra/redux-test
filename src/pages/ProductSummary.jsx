@@ -10,7 +10,7 @@ export default function ProductSummary() {
     <div className="schoolbook_square">
       <Menu />
       <div className="headline2">
-        <h2>Kiválasztott Termékek Összegzése</h2>
+        <h2>choosen products</h2>
       </div>
       <div className="result">
         {selectedProducts.length > 0 ? (
@@ -23,7 +23,7 @@ export default function ProductSummary() {
             ))}
           </ul>
         ) : (
-          <p>Nincsenek kiválasztott termékek.</p>
+          <p>No choosen products, we will starve as you are :(</p>
         )}
       </div>
       <div className="bottomContainer">
