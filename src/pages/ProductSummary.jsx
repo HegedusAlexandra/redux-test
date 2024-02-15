@@ -7,9 +7,9 @@ export default function ProductSummary() {
   const selectedProducts = products.filter((product) => product.quantity > 0);
 
   return (
-    <div>
+    <div className="schoolbook_square">
       <Menu />
-      <div className="headline">
+      <div className="headline2">
         <h2>Kiválasztott Termékek Összegzése</h2>
       </div>
       <div className="result">
@@ -26,12 +26,15 @@ export default function ProductSummary() {
           <p>Nincsenek kiválasztott termékek.</p>
         )}
       </div>
-      <h2 className="finalRes">
-        SUM:
-        {products
-          .map((el) => el.price * el.quantity)
-          .reduce((acc, cur) => acc + cur, 0)}
-      </h2>
+      <div className="bottomContainer">
+        <h2 className="finalRes">
+          SUM:
+          {products
+            .map((el) => el.price * el.quantity)
+            .reduce((acc, cur) => acc + cur, 0)}
+        </h2>
+        <button className="bottomButton">I want it</button>
+      </div>
     </div>
   );
 }
